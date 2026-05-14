@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://dominikmecko.github.io/"
 languageCode = "en"
 title = "Dominik Mecko"
 theme = "PaperMod"
@@ -13,7 +13,7 @@ enableRobotsTXT = true
     favicon = "/favicon/favicon.ico"
 
 [params]
-  env = "development"
+  env = "production"
   customCSS = ["css/custom.css"]
   ShowReadingTime = true
   ShowShareButtons = false
