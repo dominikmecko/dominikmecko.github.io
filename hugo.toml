@@ -20,6 +20,9 @@ enableRobotsTXT = true
   ShowCodeCopyButtons = true
   author = "Dominik Mecko"
 
+[minify]
+  disableJS = true
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

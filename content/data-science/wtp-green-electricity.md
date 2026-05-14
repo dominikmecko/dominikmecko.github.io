@@ -62,4 +62,4 @@ Despite these limitations, the findings provide encouraging evidence that Slovak
 
 Study Details: This research was conducted as a Bachelor's thesis in International Business Economics at Erasmus School of Economics, supervised by Marco Gregori, MSc. Data collection occurred in May 2022 through an online survey promoted via social media and Facebook advertising (€40 budget, 152 clicks, 2.5% CTR).
 
-Feel free to read the study [here](/pdf/BusinessAnalytics_Dissertation_FinalDissertation.pdf). 
+Feel free to read the study [here](/pdf/1-8-22-Final-Version-BachelorThesis-Mecko-539056.pdf). 
