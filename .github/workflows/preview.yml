@@ -1,0 +1,23 @@
+name: Preview (dev branch)
+
+on:
+  push:
+    branches:
+      - dev
+
+# Same jobs as deploy.yml but deploys to a separate environment
+# Simplest approach: just let Actions build and check for errors,
+# without deploying — catches broken builds before they hit main.
+
+jobs:
+  build-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "latest"
+          extended: true
+      - run: hugo --minify
