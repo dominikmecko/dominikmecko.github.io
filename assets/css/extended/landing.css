@@ -8,6 +8,24 @@ html:has(.landing) {
     overflow-y: hidden;
 }
 
+/* Visually hidden skip link, visible on focus for keyboard users */
+.skip-link {
+    position: absolute;
+    top: -100%;
+    left: 1rem;
+    padding: 0.5rem 1rem;
+    background: white;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    z-index: 9999;
+    text-decoration: none;
+}
+.skip-link:focus {
+    top: 1rem;
+}
+
 /* Landing container */
 .landing {
     position: relative;       /* for z-index above video */
@@ -70,16 +88,16 @@ html:has(.landing) {
     letter-spacing: 0.04em;
 }
 
-/* Navigation links */
-.landing-nav a {
+/* Navigation links — high specificity to override PaperMod button styles */
+.landing .landing-nav a {
     text-decoration: none;
     opacity: 0.8;
     color: white;
-    border: none !important;
-    background: none !important;
-    border-radius: 0 !important;
-    padding: 0 !important;
-    box-shadow: none !important;
+    border: none;
+    background: none;
+    border-radius: 0;
+    padding: 0;
+    box-shadow: none;
     font-weight: 500;
     position: relative;       /* for hover underline */
 }

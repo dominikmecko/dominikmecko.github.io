@@ -14,7 +14,6 @@ enableRobotsTXT = true
 
 [params]
   env = "production"
-  customCSS = ["css/custom.css"]
   ShowReadingTime = true
   ShowShareButtons = false
   ShowCodeCopyButtons = true

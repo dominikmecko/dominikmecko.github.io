@@ -21,7 +21,7 @@ komu dlžíš ďakujem.
 
 
 <div class="image-text image-left">
-  <img src="/images/portraits/1.jpg" alt="A man standing in front of a light source">
+  <img loading="lazy" src="/images/portraits/1.jpg" alt="A man standing in front of a light source">
   <div class="text">
     <p>
       <em> Našiel som ho na najvyššom poschodí </em>
@@ -30,7 +30,7 @@ komu dlžíš ďakujem.
 </div>
 
 <div class="image-text image-right">
-  <img src="/images/portraits/2.jpg" alt="Woman standing in a circular structure">
+  <img loading="lazy" src="/images/portraits/2.jpg" alt="Woman standing in a circular structure">
 </div>
 
 <p style="text-align: center;">
@@ -38,7 +38,7 @@ komu dlžíš ďakujem.
 </p>
 
 <div class="image-text image-left">
-  <img src="/images/portraits/3.jpg" alt="Portrait of a woman in a sunset">
+  <img loading="lazy" src="/images/portraits/3.jpg" alt="Portrait of a woman in a sunset">
 </div>
 
 <p style="text-align: center;">
@@ -46,7 +46,7 @@ komu dlžíš ďakujem.
 </p>
 
 <div class="image-text image-right">
-  <img src="/images/portraits/6.jpg" alt="Woman standing under the waterfall">
+  <img loading="lazy" src="/images/portraits/6.jpg" alt="Woman standing under the waterfall">
   <div class="text">
     <p>
       <em> Kto taký obraz sveta oné ráno dal mi? </em>
@@ -55,7 +55,7 @@ komu dlžíš ďakujem.
 </div>
 
 <div class="image-text image-right">
-  <img src="/images/portraits/4.jpg" alt="Man playing on a guitar on a concert">
+  <img loading="lazy" src="/images/portraits/4.jpg" alt="Man playing on a guitar on a concert">
 </div>
 
 <p style="text-align: center;">

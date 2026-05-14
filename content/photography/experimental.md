@@ -18,7 +18,7 @@ No minul som to, a ostalo len, čo som zdedil.
 
 
 <div class="image-text image-left">
-  <img src="/images/exp/club.jpg" alt="Silhouettes of people in front of club lights">
+  <img loading="lazy" src="/images/exp/club.jpg" alt="Silhouettes of people in front of club lights">
 </div>
 
 <p style="text-align: center;">
@@ -26,7 +26,7 @@ No minul som to, a ostalo len, čo som zdedil.
 </p>
 
 <div class="image-text image-right">
-  <img src="/images/exp/dementor.jpg" alt="Blurry image of a man with circular filter">
+  <img loading="lazy" src="/images/exp/dementor.jpg" alt="Blurry image of a man with circular filter">
 </div>
 
 <p style="text-align: center;">
@@ -34,7 +34,7 @@ No minul som to, a ostalo len, čo som zdedil.
 </p>
 
 <div class="image-text image-left">
-  <img src="/images/exp/chair.jpg" alt="View on chairs in a desert through door">
+  <img loading="lazy" src="/images/exp/chair.jpg" alt="View on chairs in a desert through door">
     <div class="text">
     <p>
       <em> Vstaň, ak to dokážeš </em>
@@ -43,7 +43,7 @@ No minul som to, a ostalo len, čo som zdedil.
 </div>
 
 <div class="image-text image-right">
-  <img src="/images/exp/horse.jpg" alt="Blurry image of a woman riding a horse in sunset">
+  <img loading="lazy" src="/images/exp/horse.jpg" alt="Blurry image of a woman riding a horse in sunset">
     <div class="text">
     <p>
         <em> Len duša nevinná tíško blúdi </em>
@@ -52,7 +52,7 @@ No minul som to, a ostalo len, čo som zdedil.
 </div>
 
 <div class="image-text image-left">
-  <img src="/images/exp/eclipse.jpg" alt="Light source behind a planet">
+  <img loading="lazy" src="/images/exp/eclipse.jpg" alt="Light source behind a planet">
   <div class="text">
     <p>
       <em> Nestačí mi raz vidieť </em>

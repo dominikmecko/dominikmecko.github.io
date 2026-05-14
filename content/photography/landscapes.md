@@ -19,7 +19,7 @@ Je čas ísť späť, na Zem.
 
 
 <div class="image-text image-left">
-  <img src="/images/lands/dunes.jpg" alt="Sahara desert landscape">
+  <img loading="lazy" src="/images/lands/dunes.jpg" alt="Sahara desert landscape">
   <div class="text">
     <p>
       <em> Vietor pohne všetkým, iba Tebou nie </em>
@@ -28,7 +28,7 @@ Je čas ísť späť, na Zem.
 </div>
 
 <div class="image-text image-right">
-  <img src="/images/lands/robo.jpg" alt="Man walking on top of a dune">
+  <img loading="lazy" src="/images/lands/robo.jpg" alt="Man walking on top of a dune">
   <div class="text">
     <p>
       <em> Len kráčaj </em>
@@ -37,7 +37,7 @@ Je čas ísť späť, na Zem.
 </div>
 
 <div class="image-text image-left">
-  <img src="/images/lands/mountain.jpg" alt="Mountain peak covered in clouds">
+  <img loading="lazy" src="/images/lands/mountain.jpg" alt="Mountain peak covered in clouds">
   <div class="text">
     <p>
       <em> Z miest, ktoré nikdy neexistovali </em>
@@ -46,7 +46,7 @@ Je čas ísť späť, na Zem.
 </div>
 
 <div class="image-text image-right">
-  <img src="/images/lands/tatry.jpg" alt="View on Vysoke Tatry mountains">
+  <img loading="lazy" src="/images/lands/tatry.jpg" alt="View on Vysoke Tatry mountains">
   <div class="text">
   </div>
 </div>
@@ -56,7 +56,7 @@ Je čas ísť späť, na Zem.
 </p>
 
 <div class="image-text image-left">
-  <img src="/images/lands/sunset.jpg" alt="Sunset over sea">
+  <img loading="lazy" src="/images/lands/sunset.jpg" alt="Sunset over sea">
   <div class="text">
     <p>
       <em> Nič sa nepýtaj, všetko viem </em>
@@ -65,7 +65,7 @@ Je čas ísť späť, na Zem.
 </div>
 
 <div class="image-text image-right">
-  <img src="/images/lands/trees.jpg" alt="Trees silhouettes with mist">
+  <img loading="lazy" src="/images/lands/trees.jpg" alt="Trees silhouettes with mist">
   <div class="text">
     <p>
       <em> Ak chceš lietať, hit me up </em>

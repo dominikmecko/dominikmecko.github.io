@@ -39,7 +39,7 @@ I left for White Wilderness with a packed bag and a mild sense of dread. I'm not
 The first morning started sharp, with a 6am breakfast, short walks near the house, a few presentations and early impressions of a wolf print in fresh snow. By day two, things got more serious. Driving with Katka in a valley with the windows down at −15°C, scanning roadside snow for tracks, I understood this was going to be a biting experience.
 
 <div class="image-text image-center">
-  <img src="/images/view-tatry.jpg" alt="Views on Tatry">
+  <img loading="lazy" src="/images/view-tatry.jpg" alt="Views on Tatry">
   <p>Spectacular views that we enjoyed every single day.</p>
 </div>
 
@@ -51,7 +51,7 @@ Day three started as a proper expedition and brought the promised adventure. I w
 
 
 <div class="image-text image-center">
-  <img src="/images/wolf-play.jpg" alt="Signs of wolf play in snow" style="height:40em">
+  <img loading="lazy" src="/images/wolf-play.jpg" alt="Signs of wolf play in snow" style="height:40em">
   <p>Signs of wolf play in the snow on the top of the mountain saddle.</p>
 </div>
 
@@ -66,7 +66,7 @@ Day three started as a proper expedition and brought the promised adventure. I w
 If day three was the most atmospheric, day four was the most dramatic. Katka pushed through difficult terrain following wolfpack prints until she found what she was looking for: the remains of a large deer. A killsite, complete and undisturbed.
 
 <div class="image-text image-center">
-  <img src="/images/killsite.jpeg" alt="Wolf killsite of a deer" class='center' style="height:40em">
+  <img loading="lazy" src="/images/killsite.jpeg" alt="Wolf killsite of a deer" class='center' style="height:40em">
   <p>The killsite of a red deer.</p>
 </div>
 

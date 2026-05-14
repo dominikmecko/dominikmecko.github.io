@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "Inter";
-  src: url("/fonts/inter/Inter-VariableFont_opsz,wght.ttf") format("woff2");
+  src: url("/fonts/inter/Inter-VariableFont_opsz,wght.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: "Inter";
-  src: url("/fonts/inter/Inter-Italic-VariableFont_opsz,wght.ttf") format("woff2");
+  src: url("/fonts/inter/Inter-Italic-VariableFont_opsz,wght.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -25,14 +25,14 @@
 
 @font-face {
   font-family: "EB Garamond";
-  src: url("/fonts/ebgaramond/EBGaramond-VariableFont_wght.ttf") format("woff2");
+  src: url("/fonts/ebgaramond/EBGaramond-VariableFont_wght.ttf") format("truetype");
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: "EB Garamond";
-  src: url("/fonts/ebgaramond/EBGaramond-Italic-VariableFont_wght.ttf") format("woff2");
+  src: url("/fonts/ebgaramond/EBGaramond-Italic-VariableFont_wght.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -43,7 +43,7 @@
 
 @font-face {
   font-family: "Source Code Pro";
-  src: url("/fonts/ebgaramond/SourceCodePro-VariableFont_wght.ttf") format("woff2");
+  src: url("/fonts/sourceodepro/SourceCodePro-VariableFont_wght.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
