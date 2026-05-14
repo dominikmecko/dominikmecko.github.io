@@ -7,5 +7,5 @@ cover:
   alt: "Description of the image"
   relative: true
   hidden: false
-  draft: True
+  draft: true
 ---
