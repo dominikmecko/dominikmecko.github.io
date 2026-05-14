@@ -1,0 +1,64 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en"
+title = "Dominik Mecko"
+theme = "PaperMod"
+
+[Author]
+  email = "djmecko@gmail.com"
+  name = "Dominik Mecko"
+
+enableRobotsTXT = true
+
+[assets]
+    favicon = "/favicon/favicon.ico"
+
+[params]
+  env = "development"
+  customCSS = ["css/custom.css"]
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowCodeCopyButtons = true
+  author = "Dominik Mecko"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[[menu.main]]
+  name = "about"
+  url = "/about/"
+  weight = 10
+
+[[menu.main]]
+  name = "blog"
+  url = "/blog/"
+  weight = 20
+
+[[menu.main]]
+  name = "data science"
+  url = "/data-science/"
+  weight = 30
+
+[[menu.main]]
+  name = "climate & environment"
+  url = "/climate-and-environment/"
+  weight = 40
+
+[[menu.main]]
+  name = "photography"
+  url = "/photography/"
+  weight = 50
+
+[[menu.main]]
+  name = "cv"
+  url = "/cv/"
+  weight = 60
+
+
+

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ .Site.Title }}</title>
+
+  {{ partial "head.html" . }}
+
+</head>
+
+<body>
+  
+  <main class="landing">
+    <!-- Background video -->
+    <video class="landing-video" autoplay muted loop playsinline>
+      <source src="/videos/bg_web.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <h1 aria-label="Dominik Mecko.">
+      <span id="titleText" class="code">Dominik Mecko.</span>
+      <span class="cursor"></span>
+    </h1>
+    
+    <nav class="landing-nav">
+      <a href="/data-science/">data science</a>
+      <a href="/climate-and-environment/">climate & environment</a>
+      <a href="/photography/">photography</a>
+    </nav>
+
+    <section class="landing-context">
+      <p>
+        Welcome to the personal website of {{ .Site.Title }} focused on data science,
+        environmental economics, and photography.
+      </p>
+    </section>
+    <script>
+        const phrases = [
+          { text: "Dominik Mecko", font: "hand" },
+          { text: "Data Scientist", font: "code" },
+          { text: "Environmental Economist", font: "code" },
+          { text: "Photographer", font: "hand" },
+        ];
+
+        const title = document.getElementById("titleText");
+        const cursor = document.querySelector(".cursor");
+
+        let phraseIndex = 0;
+        let charIndex = 0;
+        let typingSpeed = 80;
+        let deletingSpeed = 40;
+        let pause = 1200; // pause after typing a phrase
+        let phase = "typing";
+
+        function typeRotate() {
+          const currentPhrase = phrases[phraseIndex];
+
+          // set font
+          title.className = currentPhrase.font;
+
+          if (phase === "typing") {
+            title.textContent = currentPhrase.text.slice(0, charIndex++);
+            if (charIndex <= currentPhrase.text.length) {
+              setTimeout(typeRotate, typingSpeed);
+            } else {
+              phase = "pause";
+              setTimeout(typeRotate, pause);
+            }
+          }
+
+          else if (phase === "pause") {
+            phase = "deleting";
+            setTimeout(typeRotate, deletingSpeed);
+          }
+
+          else if (phase === "deleting") {
+            charIndex--;
+            title.textContent = currentPhrase.text.slice(0, charIndex);
+            if (charIndex > 0) {
+              setTimeout(typeRotate, deletingSpeed);
+            } else {
+              phraseIndex = (phraseIndex + 1) % phrases.length;
+              phase = "typing";
+              setTimeout(typeRotate, typingSpeed);
+            }
+          }
+        }
+
+        typeRotate();
+      </script>
+    </main>
+</body>
+</html>

@@ -1,0 +1,81 @@
+/* =========================
+   INTER FONT
+   ========================= */
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/inter/Inter-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/inter/Inter-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/* =========================
+   EB GARAMOND
+   ========================= */
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url("/fonts/ebgaramond/EBGaramond-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url("/fonts/ebgaramond/EBGaramond-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* =========================
+   BODY TEXT
+   ========================= */
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+
+/* =========================
+   HEADINGS
+   ========================= */
+
+h1, h2, h3, h4, h5 {
+  font-family: "EB Garamond", serif;
+  letter-spacing: -0.01em;
+}
+
+
+/* =========================
+   SITE TITLE (top left)
+   ========================= */
+
+.logo a {
+  font-family: "EB Garamond", serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+
+/* =========================
+   NAVIGATION
+   ========================= */
+
+#menu a {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Wolf-Tracking on Dominik Mecko</title>
+    <link>http://localhost:1313/tags/wolf-tracking/</link>
+    <description>Recent content in Wolf-Tracking on Dominik Mecko</description>
+    <generator>Hugo -- 0.157.0</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 20 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/wolf-tracking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A week of tracking wolves, bears and lynx in the Slovak wilderness</title>
+      <link>http://localhost:1313/climate-and-environment/wolf-tracking/</link>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/climate-and-environment/wolf-tracking/</guid>
+      <description>A week spent reading snow, following predators, and rethinking what comes next.</description>
+    </item>
+  </channel>
+</rss>

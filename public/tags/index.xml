@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Dominik Mecko</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Dominik Mecko</description>
+    <generator>Hugo -- 0.157.0</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 20 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nature-Conservation</title>
+      <link>http://localhost:1313/tags/nature-conservation/</link>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/nature-conservation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wilderness</title>
+      <link>http://localhost:1313/tags/wilderness/</link>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/wilderness/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wolf-Tracking</title>
+      <link>http://localhost:1313/tags/wolf-tracking/</link>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/wolf-tracking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BSc</title>
+      <link>http://localhost:1313/tags/bsc/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bsc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Causal-Inference</title>
+      <link>http://localhost:1313/tags/causal-inference/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/causal-inference/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Energy</title>
+      <link>http://localhost:1313/tags/energy/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/energy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Green-Electricitu</title>
+      <link>http://localhost:1313/tags/green-electricitu/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/green-electricitu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Green-Premium</title>
+      <link>http://localhost:1313/tags/green-premium/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/green-premium/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine-Learning</title>
+      <link>http://localhost:1313/tags/machine-learning/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MSc</title>
+      <link>http://localhost:1313/tags/msc/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/msc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Office-Market</title>
+      <link>http://localhost:1313/tags/office-market/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/office-market/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

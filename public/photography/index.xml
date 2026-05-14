@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Photography on Dominik Mecko</title>
+    <link>http://localhost:1313/photography/</link>
+    <description>Recent content in Photography on Dominik Mecko</description>
+    <generator>Hugo -- 0.157.0</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 22 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/photography/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>It&#39;s the eyes, they never lie</title>
+      <link>http://localhost:1313/photography/portraits/</link>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photography/portraits/</guid>
+      <description>&lt;p&gt;Milión červených ruží, chceli by sme celý svet.&lt;br&gt;
+V objatí sme ako kruhy, bez začiatku, bez konca.&lt;br&gt;
+Vetrom nesieš prvé šifry, pot ma šteklí na perách.&lt;br&gt;
+Načo lúštiť povedané? Zamotať sa v riešeniach?&lt;br&gt;
+Je to všetko tu, leží ti to na očiach.&lt;br&gt;
+Nezľakni sa rezných rán.&lt;br&gt;
+Pod nimi je skytým písmom vytlačené,&lt;br&gt;
+komu dlžíš ďakujem.&lt;/p&gt;
+&lt;div class=&#34;image-text image-left&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/portraits/1.jpg&#34; alt=&#34;A man standing in front of a light source&#34;&gt;
+  &lt;div class=&#34;text&#34;&gt;
+    &lt;p&gt;
+      &lt;em&gt; Našiel som ho na najvyššom poschodí &lt;/em&gt;
+    &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Places from my dreams</title>
+      <link>http://localhost:1313/photography/landscapes/</link>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photography/landscapes/</guid>
+      <description>&lt;p&gt;Otvoríš oči a spomenieš si, že si tam, kde si vždy chcel byť.&lt;br&gt;
+Kam len dovidíš, ti šeptá pokoj do ucha mäkkú uspávanku.&lt;br&gt;
+Zabudni, že aj posledný strom raz padne.&lt;br&gt;
+Sny sú ako z cukru, vábia s nekalým úmyslom.&lt;br&gt;
+Hladné mraky už zdola šplhajú, nie je šanca ujsť.&lt;br&gt;
+Len sa dole cez všetko živé prestrieľať.&lt;br&gt;
+Je čas ísť späť, na Zem.&lt;/p&gt;
+&lt;div class=&#34;image-text image-left&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/lands/dunes.jpg&#34; alt=&#34;Sahara desert landscape&#34;&gt;
+  &lt;div class=&#34;text&#34;&gt;
+    &lt;p&gt;
+      &lt;em&gt; Vietor pohne všetkým, iba Tebou nie &lt;/em&gt;
+    &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The echo of a distorted cry</title>
+      <link>http://localhost:1313/photography/experimental/</link>
+      <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photography/experimental/</guid>
+      <description>&lt;p&gt;Snívalo sa mi.&lt;br&gt;
+Bol som opäť na tých najkrajších miestach, vôňa levandulí mi opantávala každý zmysel.&lt;br&gt;
+Počul známe zvuky, videl veci, čo sa nestali. Čas stál a dal sa ľubovoľne pretáčať.&lt;br&gt;
+Tu sa dali porušiť všetky zákony, ani Lorentz nemal žiaden dosah.&lt;br&gt;
+Platil by som všetkým za návrat.&lt;br&gt;
+No minul som to, a ostalo len, čo som zdedil.&lt;/p&gt;
+&lt;div class=&#34;image-text image-left&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/exp/club.jpg&#34; alt=&#34;Silhouettes of people in front of club lights&#34;&gt;
+&lt;/div&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;
+  &lt;em&gt; A sme opäť sami &lt;/em&gt;
+&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

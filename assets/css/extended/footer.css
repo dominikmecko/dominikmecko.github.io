@@ -1,0 +1,22 @@
+/* Footer icon links */
+footer.footer a.footer-icon {
+    text-decoration: none !important; /* remove underline */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 6px;
+    cursor: pointer;
+}
+
+/* Style the SVG itself */
+footer.footer a.footer-icon svg {
+    width: 20px;
+    height: 20px;
+    opacity: 0.8;
+    pointer-events: none; /* allows click on <a> */
+}
+
+/* Hover effect: only change opacity */
+footer.footer a.footer-icon:hover svg {
+    opacity: 1;
+}
