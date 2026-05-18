@@ -9,9 +9,6 @@ theme = "PaperMod"
 
 enableRobotsTXT = true
 
-[assets]
-    favicon = "/favicon/favicon.ico"
-
 [params]
   env = "production"
   ShowReadingTime = true
