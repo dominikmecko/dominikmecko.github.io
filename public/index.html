@@ -14,7 +14,7 @@
 <meta name="description" content="Personal website of Dominik Mecko — data scientist, environmental economist, and photographer.">
 <meta name="author" content="Dominik Mecko">
 <link rel="canonical" href="http://localhost:1313/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.aeeb68b70f8ab9a16267fbb119c49bcab8d34337415b1d060d6845db9e08144f.css" integrity="sha256-rutotw&#43;KuaFiZ/uxGcSbyrjTQzdBWx0GDWhF254IFE8=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.6475fd32a1cd122e947b504dd9ea133e65660226bc6f1fb19bbf957a24320b23.css" integrity="sha256-ZHX9MqHNEi6Ue1BN2eoTPmVmAia8bx&#43;xm7&#43;VeiQyCyM=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -105,10 +105,7 @@
   <a href="#main-content" class="skip-link">Skip to content</a>
   <main class="landing" id="main-content">
     
-    <video class="landing-video" autoplay muted loop playsinline>
-      <source src="/videos/bg_web.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+    <video class="landing-video" autoplay muted loop playsinline disablepictureinpicture disableremoteplayback preload="auto"></video>
 
     <h1 aria-label="Dominik Mecko.">
       <span id="titleText" class="code">Dominik Mecko.</span>
@@ -127,6 +124,24 @@
         environmental economics, and photography.
       </p>
     </section>
+    <script>
+        (function () {
+          const video = document.querySelector('.landing-video');
+          const portrait = window.matchMedia('(orientation: portrait)');
+
+          function setVideoSrc(isPortrait) {
+            const next = isPortrait ? '/videos/bg_web_vertical.mp4' : '/videos/bg_web.mp4';
+            if (video.currentSrc && video.currentSrc.endsWith(next)) return;
+            video.src = next;
+            video.load();
+            video.play().catch(() => {});
+          }
+
+          setVideoSrc(portrait.matches);
+          portrait.addEventListener('change', function (e) { setVideoSrc(e.matches); });
+        })();
+      </script>
+
     <script>
         const phrases = [
           { text: "Dominik Mecko", font: "hand" },

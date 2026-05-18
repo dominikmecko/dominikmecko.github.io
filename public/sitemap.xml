@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/blog/on_economy_ecology/</loc>
+    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/</loc>
     <lastmod>2026-05-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -20,6 +23,9 @@
     <loc>http://localhost:1313/blog/five_books_ua/</loc>
     <lastmod>2026-05-15T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/opinions/</loc>
+    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-05-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -29,35 +35,44 @@
     <loc>http://localhost:1313/tags/war-reportage/</loc>
     <lastmod>2026-05-15T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/climate-and-environment/wolf-tracking/</loc>
+    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/climate-and-environment/</loc>
+    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/climate-environment/</loc>
+    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/nature-conservation/</loc>
+    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/wilderness/</loc>
+    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/wolf-tracking/</loc>
+    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/climate-ambassador/</loc>
+    <lastmod>2026-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/european-union/</loc>
+    <lastmod>2026-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/volunteering/</loc>
+    <lastmod>2026-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/climate-and-environment/climate-ambassador/</loc>
+    <lastmod>2026-03-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/photography/portraits/</loc>
     <lastmod>2026-02-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/photography/</loc>
     <lastmod>2026-02-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/climate-and-environment/wolf-tracking/</loc>
-    <lastmod>2026-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/climate-and-environment/</loc>
-    <lastmod>2026-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/climate-environment/</loc>
-    <lastmod>2026-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/nature-conservation/</loc>
-    <lastmod>2026-02-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/photography/landscapes/</loc>
     <lastmod>2026-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/wilderness/</loc>
-    <lastmod>2026-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/wolf-tracking/</loc>
-    <lastmod>2026-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/climate-and-environment/climate-ambassador/</loc>
-    <lastmod>2026-02-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/photography/experimental/</loc>
     <lastmod>2026-02-18T00:00:00+00:00</lastmod>
