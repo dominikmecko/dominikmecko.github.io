@@ -1,8 +1,8 @@
 ---
 title: "How to predict annual residential energy consumption?"
-date: 2026-01-15
+date: 2026-02-15
 categories: ["data-science"]
-tags: ["machine-learning", "energy", "MSc"]
+tags: ["machine-learning", "energy", "research"]
 description: Predicting annual residential building energy use intensity from constrained open data using machine learning, weather records, and population dynamics embeddings.
 draft: false
 cover:

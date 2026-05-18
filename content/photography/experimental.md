@@ -1,6 +1,6 @@
 ---
 title: "The echo of a distorted cry"
-date: 2026-01-18
+date: 2026-02-18
 draft: false
 cover:
   image: "/images/hero-exp.jpg"

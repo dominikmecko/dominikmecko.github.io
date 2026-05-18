@@ -1,8 +1,8 @@
 ---
 title: "What drives willingness to pay for renewable electricity in Slovakia?"
-date: 2026-01-15
+date: 2026-02-15
 categories: ["data-science", "climate-and-environment"]
-tags: ["machine-learning", "green-electricity", "BSc"]
+tags: ["machine-learning", "green-electricity", "research"]
 draft: false
 cover:
   image: "/images/hero-bsc-thesis.jpg"

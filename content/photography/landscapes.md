@@ -1,6 +1,6 @@
 ---
 title: "Places from my dreams"
-date: 2026-01-20
+date: 2026-02-20
 draft: false
 cover:
   image: "/images/hero-landscapes.jpg"

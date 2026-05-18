@@ -4,13 +4,13 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>How to predict annual residential energy consumption? | Dominik Mecko</title>
-<meta name="keywords" content="machine-learning, energy, MSc">
+<meta name="keywords" content="machine-learning, energy, research">
 <meta name="description" content="Predicting annual residential building energy use intensity from constrained open data using machine learning, weather records, and population dynamics embeddings.">
 <meta name="author" content="Dominik Mecko">
 <link rel="canonical" href="http://localhost:1313/data-science/energy-prediction/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.3304e64203ae7d2d859fa40f8e33bc891d388f3a89817e1dc93b03d24b4b3e4c.css" integrity="sha256-MwTmQgOufS2Fn6QPjjO8iR04jzqJgX4dyTsD0ktLPkw=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.aeeb68b70f8ab9a16267fbb119c49bcab8d34337415b1d060d6845db9e08144f.css" integrity="sha256-rutotw&#43;KuaFiZ/uxGcSbyrjTQzdBWx0GDWhF254IFE8=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -70,6 +70,77 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
+</script><meta property="og:url" content="http://localhost:1313/data-science/energy-prediction/">
+  <meta property="og:site_name" content="Dominik Mecko">
+  <meta property="og:title" content="How to predict annual residential energy consumption?">
+  <meta property="og:description" content="Predicting annual residential building energy use intensity from constrained open data using machine learning, weather records, and population dynamics embeddings.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="data-science">
+    <meta property="article:published_time" content="2026-02-15T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-02-15T00:00:00+00:00">
+    <meta property="article:tag" content="Machine-Learning">
+    <meta property="article:tag" content="Energy">
+    <meta property="article:tag" content="Research">
+    <meta property="og:image" content="http://localhost:1313/data-science/energy-prediction/images/hero-msc-thesis.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/data-science/energy-prediction/images/hero-msc-thesis.jpg">
+<meta name="twitter:title" content="How to predict annual residential energy consumption?">
+<meta name="twitter:description" content="Predicting annual residential building energy use intensity from constrained open data using machine learning, weather records, and population dynamics embeddings.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Data Science",
+      "item": "http://localhost:1313/data-science/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "How to predict annual residential energy consumption?",
+      "item": "http://localhost:1313/data-science/energy-prediction/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "How to predict annual residential energy consumption?",
+  "name": "How to predict annual residential energy consumption?",
+  "description": "Predicting annual residential building energy use intensity from constrained open data using machine learning, weather records, and population dynamics embeddings.",
+  "keywords": [
+    "machine-learning", "energy", "research"
+  ],
+  "articleBody": "Energy prediction is crucial for building decarbonisation. As part of my MSc dissertation at the University of Bath, I built a pipeline that combines diversity-sparse open data with open weather records and novel geospatial embeddings to predict annual residential building energy use intensity.\nProblem Annual energy is crucial for energy optimisation of both residential and commercial assets and the datapoint is often unavailable due to legal and data collection issues. The energy consumption can be predicted from external characteristics such as floor area and type of use, but with a substantial error. Additionally, open-source data are low in feature diversity and are often limited to a few building characteristics and some weather or climate variables.\nWhile short-term prediction methods are well-researched and optimised, they can’t be reliably used for long-term prediction. Yet, even available models often use data obtained from surveys that are impractical in real settings and thus a method that produces precise estimations is essential.\nData I built a unique data pipeline that combined three different data sources based on geographic identifiers. The main data source was Building Performance Database (BPD), which contains energy-related data on thousands of U.S. commercial and residential buildings across several years.\nFigure 1: Visualisation of eligible residential buildings from BPD. The second dataset was National Oceanic and Atmospheric Administration (NOAA). I developed a pipeline for efficient data collection from their API and collected hundreds of weather and climate related variables for each building at the highest available resolution.\nThe last data were provided by Google for research purposes – the embeddings from the Population Dynamics Foundation Model (PDFM). This dataset contained around 250 feature embeddings and spatial identifiers.\nMethods The main strength of the paper was the methodological development of an efficient pipeline for source combination and testing of the experimental data application in practical settings.\nThe data engineering pipeline included API connections, custom algorithms for complexity reduction and efficient geographic resolution handling across different time horizons. This ensured the best-possible data available for each site.\nThe prediction and tuning of the models was then handled using classical machine learning and cross-validation frameworks of tabular data such as regressions, random forests, boosting algorithms and neural nets.\nFigure 2: Actual vs predicted values of a tuned XGBoost model. Results XGBoost emerged as the best-performing model, explaining approximately 76% of the variance in site EUI (R²≈0.76) with a mean absolute error of ~31 kWh/m²/year and a 25.4% average prediction error (MAPE). The model was well-calibrated and low-bias, but point predictions remained noisy — 90% of observed values fell within a prediction interval of 105–237 kWh/m²/year, reflecting the high intrinsic variability of residential energy use.\nThe thesis has shown that diversity-poor feature spaces of open data are challenging for developing precise long-term energy prediction models. Hyperparameter tuning yielded negligible improvements, suggesting the baseline model had already extracted the available signal; further accuracy gains require additional explanatory variables rather than algorithm refinement.\nThe PDFM embeddings provided only marginal improvements at the building level (R² increase of 0.01), because site EUI variability is dominated by idiosyncratic occupancy patterns that are below the spatial resolution of the postcode-level embeddings. However, when predictions were aggregated to postcode level, an embeddings-only model outperformed building-level models on all error metrics — indicating that embeddings are better suited to area-level screening and hotspot identification than to asset-level forecasting.\nFigure 3: Performance comparison of selected ML models. What This Means For policymakers: Open-source building and climate data are sufficient to identify regional energy hotspots and benchmark building portfolios. A postcode-level embedding model can extrapolate energy demand to areas with sparse observations, supporting targeted retrofit programmes and compliance monitoring. However, individual-level predictions carry substantial uncertainty and should be used as bounded estimates rather than point values.\nFor analytics businesses: The pipeline demonstrates that scalable energy prediction is achievable without costly survey data. XGBoost on publicly available features delivers competitive performance, and integrating occupancy, system-level, or temporal features is the most likely path to further accuracy improvements. The postcode-level embedding approach also offers a practical screening tool for portfolio managers and underwriters.\nFor researchers: Long-term residential energy prediction depends less on algorithm choice than on feature richness and the ability to proxy latent behavioural factors. PDFM embeddings show promise for area-level geospatial inference tasks beyond energy prediction — heat demand, renovation rates, or energy hotspot mapping are natural candidates for future work.\nLimitations The study faced several constraints. The BPD sample over-represents multi-family buildings and hot climates, limiting external validity for the general U.S. residential stock. PDFM embeddings are available only upon request from Google, restricting reproducibility. The model is well-calibrated for the observed sample but should be used cautiously when applied to populations outside that distribution. Finally, a portion of the variance in site EUI is inherently unexplainable — driven by occupancy behaviour that no external dataset currently captures at scale.\nFeel free to read the study here.\n",
+  "wordCount" : "813",
+  "inLanguage": "en",
+  "image":"http://localhost:1313/data-science/energy-prediction/images/hero-msc-thesis.jpg","datePublished": "2026-02-15T00:00:00Z",
+  "dateModified": "2026-02-15T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Dominik Mecko"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/data-science/energy-prediction/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Dominik Mecko",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
 </script>
 </head>
 <body id="top">
@@ -145,7 +216,7 @@
     <div class="post-description">
       Predicting annual residential building energy use intensity from constrained open data using machine learning, weather records, and population dynamics embeddings.
     </div>
-    <div class="post-meta"><span title='2026-01-15 00:00:00 +0000 UTC'>January 15, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>Dominik Mecko</span>
+    <div class="post-meta"><span title='2026-02-15 00:00:00 +0000 UTC'>February 15, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>Dominik Mecko</span>
 
 </div>
   </header> 
@@ -196,20 +267,16 @@
     <ul class="post-tags">
       <li><a href="http://localhost:1313/tags/machine-learning/">Machine-Learning</a></li>
       <li><a href="http://localhost:1313/tags/energy/">Energy</a></li>
-      <li><a href="http://localhost:1313/tags/msc/">MSc</a></li>
+      <li><a href="http://localhost:1313/tags/research/">Research</a></li>
     </ul>
   </footer>
 </article>
     </main>
-    <div class="footer-social">
-
-
-
-</div>
+    
 <footer class="footer">
 
     
-    <a class="footer-icon" href="https://github.com/dominikmecko" target="_blank" rel="noopener">
+    <a class="footer-icon" href="https://github.com/dominikmecko" target="_blank" rel="noopener" aria-label="GitHub">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
     stroke-linecap="round" stroke-linejoin="round">
     <path
@@ -217,7 +284,7 @@
     </path>
 </svg>
     </a>
-    <a class="footer-icon" href="https://linkedin.com/in/dominikmecko" target="_blank" rel="noopener">
+    <a class="footer-icon" href="https://linkedin.com/in/dominikmecko" target="_blank" rel="noopener" aria-label="LinkedIn">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
     stroke-linecap="round" stroke-linejoin="round">
     <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
@@ -225,7 +292,7 @@
     <circle cx="4" cy="4" r="2"></circle>
 </svg>
     </a>
-    <a class="footer-icon" href="https://instagram.com/mecinoo" target="_blank" rel="noopener">
+    <a class="footer-icon" href="https://instagram.com/mecinoo" target="_blank" rel="noopener" aria-label="Instagram">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
     stroke-linecap="round" stroke-linejoin="round">
     <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
@@ -233,14 +300,14 @@
     <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
 </svg>
     </a>
-        <a class="footer-icon" href="https://unsplash.com/@janyck" target="_blank" rel="noopener">
+    <a class="footer-icon" href="https://unsplash.com/@janyck" target="_blank" rel="noopener" aria-label="Unsplash">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 40">
     <path fill="none" stroke="currentColor" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4"
         d="M37.892,13.5h-4.486 l-1.143-3.306C31.707,8.581,30.189,7.5,28.483,7.5h-9.045c-1.706,0-3.224,1.081-3.781,2.694L14.515,13.5H9.108 c-2.545,0-4.608,2.063-4.608,4.608v16.785c0,2.545,2.063,4.608,4.608,4.608h28.785c2.545,0,4.608-2.063,4.608-4.608V18.108 C42.5,15.563,40.437,13.5,37.892,13.5z" />
     <circle cx="24" cy="26" r="7.5" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="4" />
 </svg>
     </a>
-        <a class="footer-icon" href="mailto:djmecko@gmail.com">
+    <a class="footer-icon" href="mailto:djmecko@gmail.com" aria-label="Email">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 21" fill="none" stroke="currentColor" stroke-width="2"
     stroke-linecap="round" stroke-linejoin="round">
     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>

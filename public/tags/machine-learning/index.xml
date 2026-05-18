@@ -6,25 +6,24 @@
     <description>Recent content in Machine-Learning on Dominik Mecko</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to predict annual residential energy consumption?</title>
       <link>http://localhost:1313/data-science/energy-prediction/</link>
-      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/data-science/energy-prediction/</guid>
-      <description>Lorem ipsum</description>
+      <description>Predicting annual residential building energy use intensity from constrained open data using machine learning, weather records, and population dynamics embeddings.</description>
     </item>
     <item>
-      <title>What is the willingness to pay for renewable electricity in Slovakia?</title>
+      <title>What drives willingness to pay for renewable electricity in Slovakia?</title>
       <link>http://localhost:1313/data-science/wtp-green-electricity/</link>
-      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/data-science/wtp-green-electricity/</guid>
-      <description>&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;
-&lt;h2 id=&#34;data&#34;&gt;Data&lt;/h2&gt;
-&lt;h2 id=&#34;methods&#34;&gt;Methods&lt;/h2&gt;
-&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
-&lt;p&gt;Feel free to read the study &lt;a href=&#34;http://localhost:1313/pdf/BusinessAnalytics_Dissertation_FinalDissertation.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;As the climate crisis intensifies, shifting electricity generation to renewable sources has become critical. While engineering solutions continue advancing, understanding consumer preferences and pricing strategies is equally vital for accelerating this transition. As part of my bachelor&amp;rsquo;s thesis at Erasmus University Rotterdam, I investigated what Slovaks are willing to pay for renewable electricity and which factors influence these preferences.&lt;/p&gt;
+&lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;
+&lt;p&gt;Slovakia faces a unique situation: the country has substantial potential for renewable energy production (24.4 TWh technical potential vs. 30 TWh current consumption), yet only 23% of electricity comes from renewable sources. With recent energy market crises driven by geopolitical instability, understanding consumer willingness to pay (WTP) for renewable electricity became more urgent than ever.
+The research posed a central question: Can we quantify what Slovaks are willing to pay for renewable electricity, and can we predict these preferences to enable better pricing strategies?&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,6 @@
 ---
 title: "A week of tracking wolves, bears and lynx in the Slovak wilderness"
-date: 2026-01-20
+date: 2026-02-20
 categories: ["climate-environment"]
 tags: ["wilderness", "wolf-tracking", "nature-conservation"]
 description: A week spent reading snow, following predators, and rethinking what comes next.

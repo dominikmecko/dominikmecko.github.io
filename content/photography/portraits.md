@@ -1,6 +1,6 @@
 ---
 title: "It's the eyes, they never lie"
-date: 2026-01-22
+date: 2026-02-22
 draft: false
 cover:
   image: "/images/hero-portraits.jpg"

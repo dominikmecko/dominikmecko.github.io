@@ -1,4 +1,4 @@
 ---
 title: "Blog"
-description: "Writing my thoughts on data science, climate, environment and economics."
+description: "Writing my thoughts on everything that comes my way."
 ---
