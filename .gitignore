@@ -5,3 +5,4 @@ resources/
 .DS_Store
 /.claude
 content/.DS_Store
+static/.DS_Store
