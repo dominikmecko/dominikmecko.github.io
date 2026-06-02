@@ -1,3 +1,18 @@
+---
+title: "The fever dream of Aubrac"
+date: 2026-06-02
+categories: ["blog"]
+tags: ["travel", "solo-travel", "france", "aubrac", "cycling"]
+description: Some places do not stay where you left them. A summer on the French plateau and the road that followed.
+draft: true
+cover:
+  image: "/images/nasbinals-cover.jpg"
+  alt: "The Aubrac plateau in summer, wide and green under an overcast sky"
+  relative: true
+  hidden: false
+---
+
+
 # Nasbinals article — research notes
 
 ## The place
