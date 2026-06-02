@@ -31,3 +31,10 @@ Other than that, you'll certainly find me doing any sport (mainly hockey, cyclin
 You can reach out to me at my email [d.j.mecko@gmail.com](mailto:djmecko@gmail.com). 
 
 
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img src="/svg/black-logo.svg" alt="Dominik Mecko art face image" width="180" id="theme-logo">
+</div>
+
+<style>
+  [data-theme="dark"] #theme-logo { content: url('/svg/white-logo.svg'); }
+</style>

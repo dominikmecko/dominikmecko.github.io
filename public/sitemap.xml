@@ -2,11 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/on_economy_ecology/</loc>
-    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/aubrac/</loc>
+    <lastmod>2026-06-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/blog/</loc>
+    <lastmod>2026-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cycling/</loc>
+    <lastmod>2026-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/france/</loc>
+    <lastmod>2026-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/nasbinals/</loc>
+    <lastmod>2026-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/solo-travel/</loc>
+    <lastmod>2026-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/nasbinals-v2/</loc>
+    <lastmod>2026-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/travel/</loc>
+    <lastmod>2026-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ecology/</loc>
+    <lastmod>2026-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/economics/</loc>
+    <lastmod>2026-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/on_economy_ecology/</loc>
+    <lastmod>2026-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/opinions/</loc>
+    <lastmod>2026-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/opinions/</loc>
+    <lastmod>2026-05-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/book-reviews/</loc>
     <lastmod>2026-05-15T00:00:00+00:00</lastmod>
@@ -14,19 +59,7 @@
     <loc>http://localhost:1313/tags/book-reviews/</loc>
     <lastmod>2026-05-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blog/five_books_ua/</loc>
-    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/opinions/</loc>
-    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-05-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/ukraine-war/</loc>
@@ -115,6 +148,8 @@
   </url><url>
     <loc>http://localhost:1313/data-science/green-premium/</loc>
     <lastmod>2026-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/nasbinals-research-notes/</loc>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
