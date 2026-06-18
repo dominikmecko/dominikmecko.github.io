@@ -1,0 +1,60 @@
+/* Hamburger button — hidden on desktop */
+#hamburger-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    color: var(--primary);
+    margin: auto 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    /* Show hamburger, reposition header row */
+    #hamburger-toggle {
+        display: flex;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    /* Hide the horizontal scroll menu; show it as a dropdown when open */
+    #menu {
+        display: none;
+        position: absolute;
+        top: var(--header-height);
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background: var(--theme);
+        border-bottom: 1px solid var(--border);
+        padding: 8px var(--gap) 16px;
+        margin: 0;
+        overflow-x: visible;
+        white-space: normal;
+        z-index: 50;
+        line-height: 1.5;
+    }
+
+    #menu.open {
+        display: flex;
+    }
+
+    #menu li {
+        padding: 6px 0;
+    }
+
+    #menu li + li {
+        margin-inline-start: 0;
+        border-top: 1px solid var(--border);
+    }
+
+    #menu a {
+        font-size: 15px;
+        display: block;
+        padding: 2px 0;
+    }
+}

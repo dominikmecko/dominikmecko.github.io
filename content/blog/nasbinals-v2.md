@@ -1,22 +1,45 @@
 ---
-title: "The fever dream of Aubrac"
+title: "The fever dreams of Aubrac"
 date: 2026-06-02
 categories: ["blog"]
-tags: ["travel", "solo-travel", "france", "aubrac", "cycling"]
-description: Some places do not stay where you left them. A summer on the French plateau and the road that followed.
+tags: ["travel", "solo-travel", "france", "aubrac"]
+description: 
 draft: true
 cover:
-  image: "/images/nasbinals-cover.jpg"
-  alt: "The Aubrac plateau in summer, wide and green under an overcast sky"
+  image: "/images/hero-nasbinals.jpg"
+  alt: "The Aubrac bull staring into the camera"
   relative: true
   hidden: false
 ---
 
 📍 Aubrac plateau · Lozère, France — June–July 2025
 
+// Main idea of the essay: 
+* values of living modern life
+* life dreams and their connections
+* idea of a dream life
+* nostalgia
+
+Vast, never-ending fields, guarded by tall volcanoes from all directions. The air is full of animal scent and the grave silence is periodically cut with the sounds of cattle bells. 
+
+No, I am not in the Wild West, I am on a plateau of Massif Central in France. Parc naturel régional de l'Aubrac. The little cowboy-me is jumping, but something strange is looming from those tall and lonely gentians and aggresive eyes of Aubrac bulls. 
+
+Only later I will realise, I'm in a fever dream.
+
+## Location and its values
+Lozère is the least-densely populated department in France. I stayed two weeks in Nasbinals, a 500-people village in the heart of Aubrac. The closest supermaket, in knife-famous Laguiole was 30 mins by car. The infinete, rolling plains and isolation from everything will plant seeds of doubt into you – not to get back to the city, but to rethink your life and values.
+
+There is something special about losing your cellular connection. 
+
+## Dreams and what is lost 
+My mind often wanders to the beatiful landscape, to the places, smells, windblows or sunsets. It wants to go back. But of course, you can go, Dominik. You already did. But you know it isn't possible.
+
+Because fever dreams are not about the place. They're about the moments and the absurdity of being [unreachable](https://en.wikipedia.org/wiki/Lorentz_transformation). The inability to reach them, fueling nostalgia are 
+
+
 Some places you visit. Others you carry home without realising, folded into the lining of something, and only later — months later, reaching for something else entirely — do you find them there.
 
-Nasbinals is the second kind.
+Aubrac and Nasbinals are the second kind. If only I knew how and whether I want to wake up from this fever dream.
 
 ---
 

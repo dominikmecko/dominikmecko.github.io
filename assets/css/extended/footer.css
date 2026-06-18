@@ -1,6 +1,7 @@
 /* Footer icon links */
 footer.footer a.footer-icon {
     text-decoration: none;
+    border-bottom: none;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -17,6 +18,10 @@ footer.footer a.footer-icon svg {
 }
 
 /* Hover effect: only change opacity */
+footer.footer a.footer-icon:hover {
+    border-bottom: none;
+}
+
 footer.footer a.footer-icon:hover svg {
     opacity: 1;
 }
