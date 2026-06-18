@@ -32,7 +32,7 @@ You can reach out to me at my email [d.j.mecko@gmail.com](mailto:djmecko@gmail.c
 
 
 <div style="display: flex; justify-content: center; align-items: center;">
-  <img src="/svg/black-logo.svg" alt="Dominik Mecko art face image" width="180" id="theme-logo">
+  <img src="/svg/black-logo.svg" alt="Dominik Mecko logo" width="180" id="theme-logo">
 </div>
 
 <style>
