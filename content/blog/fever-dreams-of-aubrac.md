@@ -16,7 +16,7 @@ cover:
 
 Vast, never-ending fields, guarded by tall volcanoes from all directions. The air is full of animal scent and the grave silence is periodically cut with the sounds of cattle bells. 
 
-No, I am not in the Wild West, I am on a plateau of *Massif Central* in France. *Parc Naturel Régional de l'Aubrac*. The cowboy in me is fearless, but something strange is looming from those tall, lonely gentians and aggresive eyes of Aubrac bulls. The sun is scorching, and still something makes me shiver.
+No, I am not in the Wild West, I am on a plateau of *Massif Central* in France. *Parc Naturel Régional de l'Aubrac*. The cowboy in me is fearless, but something strange is looming from those tall, lonely gentians and aggressive eyes of Aubrac bulls. The sun is scorching, and still something makes me shiver.
 
 Only later I will realise, I'm in a fever dream.
 
@@ -32,7 +32,7 @@ You will forget that plain *Bonjour* you exchanged every morning with your favou
 But it can.
 
 ## What is real?
-My mind often wanders to the beatiful landscape, to the places, smells, windblows or sunsets that are special to the vast plains of Aubrac. It wants to return.
+My mind often wanders to the beautiful landscape, to the places, smells, winds or sunsets that are special to the vast plains of Aubrac. It wants to return.
 
 Of course, you can. You already did. But you know it isn't possible.
 
@@ -43,7 +43,7 @@ The logic of fever dreams empowers the tiniest cracks of your mind into massive 
 *A fever dream*, I wrote in my journal. *Everything from it feels so distant now but so beautiful.*
 
 ## Waking up
-I didn't write much about the place. It's mesmerisingly beatiful and I loved every single moment spent there. But Aubrac left a more important mark.
+I didn't write much about the place. It's mesmerisingly beautiful and I loved every single moment spent there. But Aubrac left a more important mark.
 
 Some places you visit. Others you carry home without realising, folded into the lining of something, and only later — months later, reaching for something else entirely — do you find them there.
 
