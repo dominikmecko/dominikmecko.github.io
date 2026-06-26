@@ -54,6 +54,9 @@ Engaged in large carnivores monitoring – tracked animals, collected scientific
 
 Finished lectures and tutorials on topics of AI and its impact on climate change
 
+**AI for Environment Summit** 10/25
+
+
 **Volunteer**  12/2019–February 2025
 
 Volunteered in several non-profit organisations including Transparency International Slovakia and Unimak.
@@ -66,7 +69,7 @@ Selected among 200 international students to solve hybrid world challenges in a 
 
 Played two ice-hockey leagues (University and 3rd Slovak Division) on an amateur/semi-professional level.
 
-## Publications
+## Theses
 
 Mecko, D.J. 2022. The Willingness to Pay for Renewable Electric Energy in the Slovak Market. *Business Economics*. Bachelor's thesis. [View online](/pdf/1-8-22-Final-Version-BachelorThesis-Mecko-539056.pdf)
 
