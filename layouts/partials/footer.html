@@ -1,6 +1,8 @@
 {{- if not (.Param "hideFooter") }}
 <footer class="footer">
 
+    {{ partial "newsletter-form.html" (dict "compact" true) }}
+
     <!-- Icons -->
     <a class="footer-icon" href="https://github.com/dominikmecko" target="_blank" rel="noopener" aria-label="GitHub">
         {{ partial "svg.html" (dict "name" "github") }}
