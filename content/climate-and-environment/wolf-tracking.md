@@ -39,7 +39,7 @@ I left for White Wilderness with a packed bag and a mild sense of dread. I'm not
 The first morning started sharp, with a 6am breakfast, short walks near the house, a few presentations and early impressions of a wolf print in fresh snow. By day two, things got more serious. Driving with Katka in a valley with the windows down at −15°C, scanning roadside snow for tracks, I understood this was going to be a biting experience.
 
 <div class="image-text image-center">
-  <img loading="lazy" src="/images/view-tatry.jpg" alt="Views on Tatry">
+  <img loading="lazy" src="/images/view-tatry.jpg" alt="Views on Tatry" style="height:30em">
   <p>Spectacular views that we enjoyed every single day.</p>
 </div>
 
