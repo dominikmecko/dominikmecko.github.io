@@ -10,25 +10,24 @@ description: "Formal career description."
 
 **Data Scientist @ GreenPlace**  12/24 – present
 
-Responsible for economics and market modelling, developed internal web-app data tools, mentored an intern, gathered and processed data from various sources, conducted geospatial analyses, and built a repository
-
+Lead economics and market modelling for client real-estate portfolios, build internal web-app data tools, mentor an intern, source and process data from diverse datasets, conduct geospatial analyses, and maintain a shared code repository of reusable data tools
 
 
 **Data Analyst @ GreenPlace** 11/22 – 12/24
 
-Developed BI dashboards and reports focused on energy efficiency and decarbonisation for clients with real estate portfolios, prepared predictive ML models, processed data.
+Built BI dashboards and reports on energy efficiency and decarbonisation for clients with real estate portfolios, and developed predictive ML models from multi-source data pipelines.
 
 **Marketing Research Intern @ Milk** 09/21 – 12/21
 
-Worked on a city-branding study about second-tier cities in the European Union. Analysed EU-wide data on tourism and city-branding and a local survey about Kosice. 
+Contributed to a city-branding study on second-tier EU cities, analysing EU-wide tourism and branding data alongside a local survey on Košice.
 
 **Digital Marketer & Data Analyst @ Milk** 09/20 – 11/22
 
-Part-time roles in content marketing and data analysis to support my studies. I delivered analyses with ML and statistical models, prepared client reports in Data Studio, designed distribution strategies and prepared monthly content plans.
+Part-time role in content marketing and data analysis alongside studies. Delivered analyses using ML and statistical models, built client reports in Google Data Studio, and designed content distribution strategies and monthly content plans.
 
 **Marketing Intern @ Vacuumlabs** 04/19 – 09/20
 
-My first role to support my studies and learn something new.
+First professional role combining content creation and marketing data analytics, supporting the marketing team while studying.
 
 ## Education
 
@@ -56,8 +55,10 @@ Finished lectures and tutorials on topics of AI and its impact on climate change
 
 **AI for Environment Summit** 10/25
 
+Attended a summit exploring applications of AI for environmental and climate challenges.
 
-**Volunteer**  12/2019–February 2025
+
+**Volunteer**  12/2019 - 02/2025
 
 Volunteered in several non-profit organisations including Transparency International Slovakia and Unimak.
 
@@ -65,7 +66,7 @@ Volunteered in several non-profit organisations including Transparency Internati
 
 Selected among 200 international students to solve hybrid world challenges in a hackathon.
 
-**Semi-professional Athlete** 09/22-03/26
+**Semi-professional Athlete** 09/22 - 03/26
 
 Played two ice-hockey leagues (University and 3rd Slovak Division) on an amateur/semi-professional level.
 
@@ -79,12 +80,13 @@ Mecko, D.J. 2025. Predicting Residential Energy Use Intensity from Constrained O
 
 **Technology**
 * Python, R, SQL, GIS, GitHub
-* sklearn, pandas, geopandas, streamlit
+* sklearn, pandas, geopandas, streamlit, hugo
 * Data visualisation in Google Data Studio / Tableau / PowerBI
 * Photoshop, Lightroom
 
 **Methods**
 * Causal analysis
+* Machine learning
 * Conjoint analysis
 * Forecasting
 * Data mining

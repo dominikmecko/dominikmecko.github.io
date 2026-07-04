@@ -4,7 +4,7 @@ date: 2026-06-02
 categories: ["blog"]
 tags: ["essays", "france", "aubrac"]
 description: Some places you visit. Others you carry home without realising what they mean
-draft: true
+draft: false
 cover:
   image: "/images/hero-nasbinals.jpg"
   alt: "The Aubrac bull staring into the camera"
