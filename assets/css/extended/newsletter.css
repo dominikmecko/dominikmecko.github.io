@@ -1,0 +1,49 @@
+/* Newsletter signup form (Buttondown) */
+.newsletter-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    margin: 24px 0;
+}
+
+.newsletter-form label {
+    flex-basis: 100%;
+    font-size: 14px;
+    color: var(--secondary);
+}
+
+.newsletter-form input[type="email"] {
+    flex: 1 1 220px;
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--theme);
+    color: var(--content);
+    font-size: 14px;
+}
+
+.newsletter-form input[type="submit"] {
+    flex: 0 0 auto;
+    padding: 8px 16px;
+    border: 1px solid var(--primary);
+    border-radius: var(--radius);
+    background: var(--primary);
+    color: var(--theme);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.newsletter-form input[type="submit"]:hover {
+    opacity: 0.85;
+}
+
+/* Compact variant used in the footer */
+.newsletter-form--compact {
+    justify-content: center;
+    margin: 0 0 12px;
+}
+
+.newsletter-form--compact input[type="email"] {
+    flex: 0 1 200px;
+}

@@ -1,0 +1,19 @@
+{{- $username := site.Params.newsletterUsername }}
+{{- if $username }}
+{{- $compact := .compact }}
+{{- $id := printf "bd-email-%s" (cond $compact "footer" "blog") }}
+<form
+  class="newsletter-form{{ if $compact }} newsletter-form--compact{{ end }}"
+  action="{{ printf "https://buttondown.com/api/emails/embed-subscribe/%s" $username }}"
+  method="post"
+  target="popupwindow"
+  onsubmit="window.open('https://buttondown.com/{{ $username }}', 'popupwindow')"
+>
+  {{- if not $compact }}
+  <label for="{{ $id }}">Subscribe to get new posts by email</label>
+  {{- end }}
+  <input type="email" name="email" id="{{ $id }}" placeholder="you@example.com" aria-label="Email address" required>
+  <input type="hidden" value="1" name="embed">
+  <input type="submit" value="Subscribe">
+</form>
+{{- end }}
