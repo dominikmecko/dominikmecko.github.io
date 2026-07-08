@@ -30,7 +30,8 @@
     }
 
     .image-text img {
-        height: auto;
+        height: auto !important;
+        max-height: none;
         width: 100%;
     }
 }
